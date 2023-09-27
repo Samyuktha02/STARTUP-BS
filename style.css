@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --primary: #06A3DA;
+    --secondary: #34AD54;
+    --light: #EEF9FF;
+    --dark: #091E3E;
+}
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.1rem;
+}
+
+.header-1{
+    background: var(--dark);
+    height: 45px;
+}
+.header-1 p{
+    font-size: 15px;
+    margin-top: 11px;
+}
+.header-1 .icons i{
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: #fff;
+    height: 75px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand h1{
+    color: var(--primary);
+    font-weight: 800;
+}
+.navbar-nav li{
+    padding: 1px 8px;
+    margin-bottom: 1.3%;
+}
+.navbar-nav li a{
+    font-size: 19px;
+    color: #091E3E;
+}
+.dropdown-menu{
+    border-radius: 0px;
+}
+.dropdown-menu li{
+    font-size: 16px;
+    padding: 3px;
+}
+.dropdown-menu li a{
+    font-size: 16px;
+    font-weight: bold;
+}
+.btns{
+    height: 48px;
+    width: 20%;
+    background: #06A3DA;
+    color: #fff;
+    border-radius: 2px;
+    margin-bottom: .6%;
+}
+.btns:hover {
+    background-color: #4BB3E2;
+    color: #091E3E;
+}
+
+.carousel-caption{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:#0d062b8a;
+    z-index: 1;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    width: 10%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width: 3rem;
+    height: 3rem;
+}
+.btns-2{
+    color: #fff;
+}
+.btns-2:hover{
+    background-color: #fff;
+    color: #091E3E;
+}
+.booking{
+    position: relative;
+    margin-top: -80px;
+    z-index: 1;
+}
+.content i{
+    padding: 25px;
+    border-radius: 3px;
+    margin-right: 15px;
+    margin-bottom: 14px;
+    font-size: 19px;
+}
+.animation {
+    margin: 3% 0%;
+    height: 5px;
+    width: 130px;
+    background-color: #19a4d8;
+    border-radius: 10px;
+}
+
+.line {
+    background-color: #ffffff;
+    height: 5px;
+    width: 10px;
+    border-radius: 10px;
+    animation: 1s line infinite;
+    animation-direction: alternate-reverse;
+    transition: linear;
+}
+
+@keyframes line {
+    0% {
+        margin-left: 0%;
+    }
+
+    100% {
+        margin-left: 120px;
+    }
+}
+.about{
+    margin-top: 8%;
+}
+.about .heading h1{
+    font-weight: 800;
+}
+.about .content-2 i{
+    background: #06A3DA;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 3px;
+}
+.about .container p{
+    color: #707070;
+    font-weight: 600;
+}
+.about .container .btn{
+    background: #06A3DA;
+    color: #fff;
+    border-radius: 0%;
+    padding: 17px 45px;
+}
+
+.choose{
+    margin-top: 7%;
+}
+.choose .heading h1{
+    font-weight: 800;
+}
+.choose .heading .animation {
+    margin: 2% 40%;
+}
+.list i{
+    background: #06A3DA;
+    color: #ffff;
+    border-radius: 3px;
+}
+.list h4{
+    color: #091E3E;
+    font-weight: 700;
+    margin-top: 5%;
+}
+.list p{
+    color: #707070;
+    font-weight: 600;
+}
+
+.service{
+    margin-top: 7%;
+}
+.service .heading h1{
+    font-weight: 800;
+}
+.service .heading .animation {
+    margin: 2% 40%;
+}
+
+.service .cards{
+    background: #EEF9FF;
+    padding: 60px 35px;
+}
+.service .card1{
+    background: #06A3DA;
+    padding: 74.5px 35px;
+}
+
+.cards h4{
+    color: #091E3E;
+    font-weight: 700;
+}
+.cards p{
+    color: #707070;
+    font-weight: 500;
+    margin-top: 4%;
+}
+
+.cards .icon {
+    background: #06A3DA;
+    width: fit-content;
+    margin-left: 40%;
+    padding: 20px 23px;
+    transform: rotate(45deg);
+    margin-bottom: 10%;
+}
+
+.cards .icon i {
+    transform: rotate(-45deg);
+    color: #fff;
+}
+
+.price{
+    margin-top: 7%;
+}
+.price .heading h1{
+    font-weight: 800;
+}
+.price .heading .animation {
+    margin: 2% 40%;
+}
+.shadows{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.pce h4{
+    color: #06A3DA;
+    font-weight: 700;
+}
+.pce h6{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+}
+.lusinner h1{
+    color: #091E3E;
+    font-weight: 800;
+}
+
+.testcontainer {
+    height: 90vh;
+}
+
+.testcontainer .heading {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.testcontainer .heading h3 {
+    color: #06A3DA;
+    font-weight: 800;
+    font-size: 21px;
+}
+
+.testcontainer .heading h1 {
+    color: var(--dark);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.testcontainer .heading .animation {
+    margin: 2% 45%;
+}
+
+.slide .compo {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 30%;
+}
+
+.slide .compo .detail {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.slide .compo .detail h2 {
+    color: #06A3DA;
+    font-size: 20px;
+}
+
+.slide .compo .detail p {
+    margin-top: 2%;
+    margin-left: 0%;
+}
+
+.slide p {
+    margin-left: 5%;
+    margin-top: 13%;
+    color: #858585;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.slider-2 {
+    overflow: hidden;
+    width: 35%;
+    height: 65%;
+    background: #EEF9FF;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+.slider-2 figure .slide {
+    margin-left: 25%;
+    width: 300px;
+}
+
+.slider-2 figure {
+    position: relative;
+    width: 400%;
+    margin: 0;
+    animation: animate 20s infinite;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+
+@keyframes animate {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    
+}
+
+/* .testimonial-carousel .owl-dots {
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: #DDDDDD;
+    border-radius: 2px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    width: 30px;
+    background: var(--primary);
+}
+
+.testimonial-carousel .owl-item.center {
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-carousel .owl-item .testimonial-item {
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item {
+    background: #FFFFFF !important;
+    box-shadow: 0 0 30px #DDDDDD;
+} */
+
+.team-item {
+    transition: .5s;
+}
+
+.team-social {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.team-social a.btn {
+    position: relative;
+    margin: 0 3px;
+    margin-top: 100px;
+    opacity: 0;
+}
+
+.team-item:hover {
+    box-shadow: 0 0 30px #DDDDDD;
+}
+
+.team-item:hover .team-social {
+    background: rgba(9, 30, 62, .7);
+}
+
+.team-item:hover .team-social a.btn:first-child {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s 0s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(2) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .05s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(3) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .1s;
+}
+
+.team-item:hover .team-social a.btn:nth-child(4) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .15s;
+}
+
+.team-item .team-img img,
+.blog-item .blog-img img  {
+    transition: .5s;
+}
+
+.team-item:hover .team-img img,
+.blog-item:hover .blog-img img {
+    transform: scale(1.15);
+}
+
+@media only screen and (min-width:200px) and (max-width:991px) {
+    
+    .testcontainer .heading h1 {
+        font-size: 23.2px;
+    }
+
+    .testcontainer .heading .animation {
+        margin: 2% 31%;
+    }
+
+    .slider-2 {
+        width: 100%;
+        height: 63%;
+        margin-left: 0%;
+    }
+
+    .slide .compo {
+        margin-left: 0%;
+    }
+
+    .slide .compo .detail h2 {
+        font-size: 17px;
+        margin-top: 7%;
+    }
+    .slide .compo .detail p{
+        font-size: 16px;
+    }
+    .slide hr{
+        display: none;
+    }
+    
+
+    .slide p {
+        margin-left: 0%;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .slider-2 figure .slide {
+        margin-left: 18%;
+    }
+
+}
